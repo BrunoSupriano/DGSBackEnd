@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:3000") // Ou o domínio do seu app Next.js
 @RestController
 @RequestMapping("/cliente")
 public class ClientController {
